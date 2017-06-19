@@ -25,24 +25,17 @@
 --]]
 
 
-local modoverrides = {
-	'bags',
-	'carts',
-	'castle_weapons',
-	'craftguide',
-	'dye',
-	'farming',
-	'helicopter',
-	'invisibility',
---	'temp-removals',
-}
+-- ** castle_weapons **
 
-for index, modname in ipairs(modoverrides) do
-	if minetest.get_modpath(modname) then
-		if antum.verbose then
-			antum.logAction('DEBUG: found mod \"' .. modname .. '\"')
-		end
-		
-		antum.loadScript('crafting/' .. modname)
-	end
+-- Recipe for 'deploy_building:arrow' conflicts with 'castle_weapons:crossbow_bolt'
+if antum.dependsSatisfied({'deploy_building', 'mobs'}) then
+	-- TODO: Possible alternate solutions:
+	--   * Allow 'deploy_building:arrow' to be used as ammon in 'castle_weapons:crossbow_bolt'
+	
+	antum.overrideCraftOutput({
+		output = 'castle_weapons:crossbow_bolt 6',
+		recipe = {
+			{'mobs:feather', 'default:stick', 'default:steel_ingot'},
+		},
+	})
 end
