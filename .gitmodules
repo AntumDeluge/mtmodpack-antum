@@ -1,3 +1,18 @@
 [submodule "antum_core"]
 	path = antum_core
 	url = https://AntumDeluge@github.com/AntumMT/mod-antum_core.git
+[submodule "antum_craft"]
+	path = craft
+	url = https://AntumDeluge@github.com/AntumMT/mod-antum_craft.git
+[submodule "antum_entities"]
+	path = entities
+	url = https://AntumDeluge@github.com/AntumMT/mod-antum_entities.git
+[submodule "antum_glass"]
+	path = glass
+	url = https://AntumDeluge@github.com/AntumMT/mod-antum_glass.git
+[submodule "antum_overrides"]
+	path = overrides
+	url = https://AntumDeluge@github.com/AntumMT/mod-antum_overrides.git
+[submodule "antum_spawneggs"]
+	path = spawneggs
+	url = https://AntumDeluge@github.com/AntumMT/mod-antum_spawneggs.git
