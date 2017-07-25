@@ -1,5 +1,5 @@
 [submodule "antum_core"]
-	path = antum_core
+	path = core
 	url = https://AntumDeluge@github.com/AntumMT/mod-antum_core.git
 [submodule "antum_craft"]
 	path = craft
