@@ -1,0 +1,3 @@
+[submodule "antum_core"]
+	path = antum_core
+	url = https://AntumDeluge@github.com/AntumMT/mod-antum_core.git
