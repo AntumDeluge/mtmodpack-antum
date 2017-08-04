@@ -16,3 +16,12 @@
 [submodule "antum_spawneggs"]
 	path = spawneggs
 	url = https://AntumDeluge@github.com/AntumMT/mod-antum_spawneggs.git
+[submodule "listitems"]
+	path = listitems
+	url = https://AntumDeluge@github.com/AntumMT/mod-listitems.git
+[submodule "override"]
+	path = override
+	url = https://AntumDeluge@github.com/AntumMT/mod-override.git
+[submodule "hidename"]
+	path = hidename
+	url = https://AntumDeluge@github.com/AntumMT/mod-hidename.git
