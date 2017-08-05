@@ -25,3 +25,6 @@
 [submodule "hidename"]
 	path = hidename
 	url = https://AntumDeluge@github.com/AntumMT/mod-hidename.git
+[submodule "value"]
+	path = value
+	url = https://AntumDeluge@github.com/AntumMT/mod-value.git
