@@ -28,3 +28,6 @@
 [submodule "value"]
 	path = value
 	url = https://AntumDeluge@github.com/AntumMT/mod-value.git
+[submodule "modconf"]
+	path = modconf
+	url = https://AntumDeluge@github.com/AntumMT/mod-modconf.git
