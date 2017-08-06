@@ -31,3 +31,6 @@
 [submodule "modconf"]
 	path = modconf
 	url = https://AntumDeluge@github.com/AntumMT/mod-modconf.git
+[submodule "colored_glass"]
+	path = colored_glass
+	url = https://AntumDeluge@github.com/AntumMT/mod-colored_glass.git
