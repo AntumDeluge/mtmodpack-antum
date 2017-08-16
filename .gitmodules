@@ -7,9 +7,6 @@
 [submodule "antum_entities"]
 	path = entities
 	url = https://AntumDeluge@github.com/AntumMT/mod-antum_entities.git
-[submodule "antum_glass"]
-	path = glass
-	url = https://AntumDeluge@github.com/AntumMT/mod-antum_glass.git
 [submodule "antum_overrides"]
 	path = overrides
 	url = https://AntumDeluge@github.com/AntumMT/mod-antum_overrides.git
